@@ -1,0 +1,55 @@
+/* Fondo gris para toda la página */
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* Todos los h3 verdes */
+h3 {
+    color: green;
+    transition: 0.3s;
+}
+
+/* Clase azul para 3 h3 */
+.blue-title {
+    color: blue;
+}
+
+/* Clase roja para 1 h3 */
+.red-title {
+    color: red;
+}
+
+/* Tarjetas */
+.letter-card {
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Imágenes */
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Hover */
+h3:hover {
+    color: orange;
+}
+
+/* Active */
+h3:active {
+    color: purple;
+}
